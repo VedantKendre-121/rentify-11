@@ -16,6 +16,8 @@ app.config['MYSQL_HOST'] = 'sql12.freesqldatabase.com'
 app.config['MYSQL_USER'] = 'sql12775767'
 app.config['MYSQL_PASSWORD'] = '3TI6nDiza4'
 app.config['MYSQL_DB'] = 'sql12775767'
+app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
+
 mysql = MySQL(app)
 
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
