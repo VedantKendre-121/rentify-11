@@ -12,10 +12,10 @@ app.secret_key = "your_secret_key"  # Required for session management
 bcrypt = Bcrypt(app)
 
 #online database 
-app.config['MYSQL_HOST'] = 'sql105.infinityfree.com'
-app.config['MYSQL_USER'] = 'if0_38915714'
-app.config['MYSQL_PASSWORD'] = 'JXAuiu7i5ss'
-app.config['MYSQL_DB'] = 'if0_38915714_rentify_db'
+app.config['MYSQL_HOST'] = 'sql12.freesqldatabase.com'
+app.config['MYSQL_USER'] = 'sql12777801'
+app.config['MYSQL_PASSWORD'] = 'fWC6VBeWjC'
+app.config['MYSQL_DB'] = 'sql12777801'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
